@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32917c4f-e620-4a2a-92d4-a592065d5670" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/data/stadium_cleaned_data20250625-200330.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200315.644714+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200315.644714+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200315.644714+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200400.881119+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200400.881119+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200400.881119+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200648.205985+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200648.205985+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200648.205985+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201051.308088+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201051.308088+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201051.308088+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201654.797066+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201654.797066+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201654.797066+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202028.813304+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202028.813304+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202028.813304+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202030.627847+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202030.627847+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202030.627847+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202032.271918+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202032.271918+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202032.271918+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/scheduler/2025-06-25/wikipedia_flow.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="origin" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rahulchet"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rahulchet/foodtballdataengineeringproject",
+    "accountId": "91a0c8b0-7e65-4c20-af56-2f4667d205a1"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dags/wikipedia_flow.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2yjjyQcIxxsd1R2FwUd0MoWV1RK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "Python.wikipedia_flow.executor": "Run",
+    "Python.wikipedia_pipeline.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Lenovo/Documents/project_trainings/FootballDataengineering",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\project_trainings\FootballDataengineering" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.wikipedia_pipeline">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FootballDataengineering" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wikipedia_flow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FootballDataengineering" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dags" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dags/wikipedia_flow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wikipedia_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FootballDataengineering" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pipelines" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pipelines/wikipedia_pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.wikipedia_pipeline" />
+        <item itemvalue="Python.wikipedia_flow" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.wikipedia_pipeline" />
+        <item itemvalue="Python.wikipedia_flow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32917c4f-e620-4a2a-92d4-a592065d5670" name="Changes" comment="" />
+      <created>1750355131715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750355131715</updated>
+      <workItem from="1750355132806" duration="45250000" />
+      <workItem from="1750637721425" duration="7002000" />
+      <workItem from="1750703138227" duration="5030000" />
+      <workItem from="1750878987170" duration="6129000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1750884587868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750884587868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1750884597078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750884597078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FootballDataengineering$main.coverage" NAME="main Coverage Results" MODIFIED="1750357981094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FootballDataengineering$wikipedia_pipeline.coverage" NAME="wikipedia_pipeline Coverage Results" MODIFIED="1750705406014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pipelines" />
+    <SUITE FILE_PATH="coverage/FootballDataengineering$wikipedia_flow.coverage" NAME="wikipedia_flow Coverage Results" MODIFIED="1750428314480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dags" />
+  </component>
+</project>
