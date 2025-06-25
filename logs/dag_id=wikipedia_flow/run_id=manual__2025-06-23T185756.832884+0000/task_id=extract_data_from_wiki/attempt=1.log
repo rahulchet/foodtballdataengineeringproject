@@ -1,0 +1,16 @@
+[2025-06-23T18:58:00.233+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_flow.extract_data_from_wiki manual__2025-06-23T18:57:56.832884+00:00 [queued]>
+[2025-06-23T18:58:00.246+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_flow.extract_data_from_wiki manual__2025-06-23T18:57:56.832884+00:00 [queued]>
+[2025-06-23T18:58:00.247+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2025-06-23T18:58:00.281+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): extract_data_from_wiki> on 2025-06-23 18:57:56.832884+00:00
+[2025-06-23T18:58:00.288+0000] {standard_task_runner.py:57} INFO - Started process 233 to run task
+[2025-06-23T18:58:00.293+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'wikipedia_flow', 'extract_data_from_wiki', 'manual__2025-06-23T18:57:56.832884+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/wikipedia_flow.py', '--cfg-path', '/tmp/tmpilw1nw1b']
+[2025-06-23T18:58:00.297+0000] {standard_task_runner.py:85} INFO - Job 14: Subtask extract_data_from_wiki
+[2025-06-23T18:58:00.386+0000] {task_command.py:410} INFO - Running <TaskInstance: wikipedia_flow.extract_data_from_wiki manual__2025-06-23T18:57:56.832884+00:00 [running]> on host bf870bd52d42
+[2025-06-23T18:58:00.471+0000] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rahul' AIRFLOW_CTX_DAG_ID='wikipedia_flow' AIRFLOW_CTX_TASK_ID='extract_data_from_wiki' AIRFLOW_CTX_EXECUTION_DATE='2025-06-23T18:57:56.832884+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-23T18:57:56.832884+00:00'
+[2025-06-23T18:58:00.472+0000] {wikipedia_pipeline.py:42} INFO - extracting wikipedia data from https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-23T18:58:00.473+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-23T18:58:01.294+0000] {wikipedia_pipeline.py:48} INFO - extracted 384 rows
+[2025-06-23T18:58:01.350+0000] {python.py:183} INFO - Done. Returned value was: ok
+[2025-06-23T18:58:01.369+0000] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=wikipedia_flow, task_id=extract_data_from_wiki, execution_date=20250623T185756, start_date=20250623T185800, end_date=20250623T185801
+[2025-06-23T18:58:01.396+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2025-06-23T18:58:01.419+0000] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check

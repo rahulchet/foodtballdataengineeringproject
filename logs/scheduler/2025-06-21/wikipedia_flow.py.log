@@ -1,0 +1,448 @@
+[2025-06-21T00:19:04.029+0000] {processor.py:156} INFO - Started process (PID=692) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T00:19:04.033+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T00:19:04.036+0000] {logging_mixin.py:149} INFO - [2025-06-21T00:19:04.035+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T00:19:04.134+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T00:19:05.346+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T00:19:05.462+0000] {logging_mixin.py:149} INFO - [2025-06-21T00:19:05.462+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T00:19:05.518+0000] {logging_mixin.py:149} INFO - [2025-06-21T00:19:05.518+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T00:19:05.588+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 1.597 seconds
+[2025-06-21T04:36:27.202+0000] {processor.py:156} INFO - Started process (PID=695) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:36:27.208+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:36:27.213+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:36:27.213+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:36:27.384+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:36:31.054+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:36:31.410+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:36:31.409+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:36:31.625+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:36:31.624+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:36:31.729+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 4.534 seconds
+[2025-06-21T04:37:02.550+0000] {processor.py:156} INFO - Started process (PID=698) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:37:02.555+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:37:02.560+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:37:02.559+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:37:02.627+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:37:04.436+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:37:04.756+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:37:04.756+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:37:04.879+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:37:04.879+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:37:05.002+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 2.484 seconds
+[2025-06-21T04:37:35.368+0000] {processor.py:156} INFO - Started process (PID=699) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:37:35.369+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:37:35.371+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:37:35.370+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:37:35.433+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:37:35.994+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:37:36.056+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:37:36.056+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:37:36.105+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:37:36.104+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:37:36.131+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.767 seconds
+[2025-06-21T04:38:06.354+0000] {processor.py:156} INFO - Started process (PID=700) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:38:06.356+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:38:06.357+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:38:06.357+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:38:06.454+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:38:07.020+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:38:07.110+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:38:07.110+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:38:07.173+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:38:07.172+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:38:07.218+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.870 seconds
+[2025-06-21T04:38:37.531+0000] {processor.py:156} INFO - Started process (PID=701) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:38:37.535+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:38:37.537+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:38:37.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:38:37.606+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:38:38.247+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:38:38.427+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:38:38.426+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:38:38.530+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:38:38.529+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:38:38.571+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 1.054 seconds
+[2025-06-21T04:39:09.011+0000] {processor.py:156} INFO - Started process (PID=702) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:39:09.017+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:39:09.019+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:39:09.019+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:39:09.069+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:39:09.586+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:39:09.629+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:39:09.629+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:39:09.657+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:39:09.657+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:39:09.683+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.681 seconds
+[2025-06-21T04:39:39.993+0000] {processor.py:156} INFO - Started process (PID=703) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:39:39.995+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:39:39.997+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:39:39.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:39:40.046+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:39:40.547+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:39:40.591+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:39:40.591+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:39:40.612+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:39:40.612+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:39:40.633+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.645 seconds
+[2025-06-21T04:40:10.905+0000] {processor.py:156} INFO - Started process (PID=704) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:40:10.906+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:40:10.907+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:40:10.907+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:40:10.947+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:40:11.453+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:40:11.497+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:40:11.497+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:40:11.523+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:40:11.522+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:40:11.551+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.651 seconds
+[2025-06-21T04:40:41.913+0000] {processor.py:156} INFO - Started process (PID=705) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:40:41.914+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:40:41.916+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:40:41.916+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:40:41.965+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:40:42.391+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:40:42.431+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:40:42.431+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:40:42.456+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:40:42.456+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:40:42.483+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.573 seconds
+[2025-06-21T04:41:12.856+0000] {processor.py:156} INFO - Started process (PID=706) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:41:12.859+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:41:12.860+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:41:12.860+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:41:12.906+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:41:13.340+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:41:13.373+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:41:13.373+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:41:13.393+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:41:13.393+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:41:13.415+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.564 seconds
+[2025-06-21T04:41:44.181+0000] {processor.py:156} INFO - Started process (PID=707) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:41:44.183+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:41:44.185+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:41:44.185+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:41:44.228+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:41:44.667+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:41:44.707+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:41:44.707+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:41:44.733+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:41:44.732+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:41:44.763+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.590 seconds
+[2025-06-21T04:42:15.033+0000] {processor.py:156} INFO - Started process (PID=708) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:42:15.037+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:42:15.039+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:42:15.039+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:42:15.093+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:42:15.554+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:42:15.584+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:42:15.584+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:42:15.610+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:42:15.610+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:42:15.641+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.615 seconds
+[2025-06-21T04:42:45.930+0000] {processor.py:156} INFO - Started process (PID=709) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:42:45.932+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:42:45.933+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:42:45.933+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:42:46.001+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:42:46.462+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:42:46.503+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:42:46.502+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:42:46.529+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:42:46.528+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:42:46.557+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.630 seconds
+[2025-06-21T04:43:16.822+0000] {processor.py:156} INFO - Started process (PID=710) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:43:16.824+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:43:16.825+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:43:16.825+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:43:16.868+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:43:17.320+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:43:17.353+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:43:17.353+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:43:17.382+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:43:17.382+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:43:17.409+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.591 seconds
+[2025-06-21T04:43:47.783+0000] {processor.py:156} INFO - Started process (PID=711) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:43:47.785+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:43:47.786+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:43:47.786+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:43:47.844+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:43:48.275+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:43:48.307+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:43:48.307+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:43:48.327+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:43:48.327+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:43:48.356+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.578 seconds
+[2025-06-21T04:44:18.880+0000] {processor.py:156} INFO - Started process (PID=712) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:44:18.881+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:44:18.882+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:44:18.882+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:44:18.931+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:44:19.411+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:44:19.442+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:44:19.442+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:44:19.464+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:44:19.464+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:44:19.487+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.611 seconds
+[2025-06-21T04:44:49.768+0000] {processor.py:156} INFO - Started process (PID=713) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:44:49.770+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:44:49.771+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:44:49.771+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:44:49.813+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:44:50.849+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:44:50.935+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:44:50.935+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:44:50.972+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:44:50.972+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:44:51.010+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 1.245 seconds
+[2025-06-21T04:45:21.127+0000] {processor.py:156} INFO - Started process (PID=714) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:45:21.129+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:45:21.130+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:45:21.130+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:45:21.175+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:45:21.602+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:45:21.643+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:45:21.643+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:45:21.666+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:45:21.666+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:45:21.691+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.568 seconds
+[2025-06-21T04:45:51.942+0000] {processor.py:156} INFO - Started process (PID=715) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:45:51.944+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:45:51.945+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:45:51.945+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:45:51.992+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:45:52.506+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:45:52.536+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:45:52.536+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:45:52.556+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:45:52.556+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:45:52.583+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.644 seconds
+[2025-06-21T04:46:22.767+0000] {processor.py:156} INFO - Started process (PID=716) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:46:22.769+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:46:22.770+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:46:22.770+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:46:22.833+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:46:23.306+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:46:23.346+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:46:23.346+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:46:23.372+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:46:23.372+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:46:23.404+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.641 seconds
+[2025-06-21T04:46:54.115+0000] {processor.py:156} INFO - Started process (PID=717) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:46:54.117+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:46:54.118+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:46:54.118+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:46:54.179+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:46:54.639+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:46:54.669+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:46:54.668+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:46:54.695+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:46:54.695+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:46:54.721+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.610 seconds
+[2025-06-21T04:47:24.986+0000] {processor.py:156} INFO - Started process (PID=718) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:47:24.988+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:47:24.989+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:47:24.989+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:47:25.030+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:47:25.471+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:47:25.502+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:47:25.501+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:47:25.523+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:47:25.523+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:47:25.549+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.567 seconds
+[2025-06-21T04:47:55.955+0000] {processor.py:156} INFO - Started process (PID=719) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:47:55.957+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:47:55.958+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:47:55.958+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:47:55.996+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:47:56.484+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:47:56.528+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:47:56.528+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:47:56.562+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:47:56.562+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:47:56.592+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.641 seconds
+[2025-06-21T04:48:27.022+0000] {processor.py:156} INFO - Started process (PID=720) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:48:27.024+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:48:27.026+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:48:27.026+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:48:27.079+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:48:27.534+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:48:27.569+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:48:27.569+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:48:27.592+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:48:27.592+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:48:27.614+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.598 seconds
+[2025-06-21T04:48:58.023+0000] {processor.py:156} INFO - Started process (PID=721) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:48:58.024+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:48:58.025+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:48:58.025+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:48:58.058+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:48:58.801+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:48:58.832+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:48:58.832+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:48:58.851+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:48:58.851+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:48:58.880+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.861 seconds
+[2025-06-21T04:49:29.558+0000] {processor.py:156} INFO - Started process (PID=722) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:49:29.559+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:49:29.561+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:49:29.561+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:49:29.615+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:49:30.070+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:49:30.106+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:49:30.106+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:49:30.130+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:49:30.130+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:49:30.165+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.611 seconds
+[2025-06-21T04:50:00.506+0000] {processor.py:156} INFO - Started process (PID=723) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:50:00.508+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:50:00.509+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:50:00.509+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:50:00.547+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:50:00.991+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:50:01.025+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:50:01.025+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:50:01.046+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:50:01.046+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:50:01.069+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.566 seconds
+[2025-06-21T04:50:31.400+0000] {processor.py:156} INFO - Started process (PID=724) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:50:31.402+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:50:31.403+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:50:31.403+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:50:31.458+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:50:31.896+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:50:31.931+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:50:31.931+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:50:31.956+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:50:31.955+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:50:31.990+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.597 seconds
+[2025-06-21T04:51:02.665+0000] {processor.py:156} INFO - Started process (PID=725) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:51:02.667+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:51:02.668+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:51:02.668+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:51:02.710+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:51:03.180+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:51:03.216+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:51:03.216+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:51:03.253+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:51:03.253+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:51:03.282+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.620 seconds
+[2025-06-21T04:51:33.749+0000] {processor.py:156} INFO - Started process (PID=726) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:51:33.751+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:51:33.752+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:51:33.752+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:51:33.799+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:51:34.244+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:51:34.283+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:51:34.282+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:51:34.310+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:51:34.310+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:51:34.347+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.601 seconds
+[2025-06-21T04:52:04.897+0000] {processor.py:156} INFO - Started process (PID=727) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:52:04.898+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:52:04.900+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:52:04.900+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:52:04.941+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:52:05.439+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:52:05.472+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:52:05.471+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:52:05.499+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:52:05.499+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:52:05.528+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.638 seconds
+[2025-06-21T04:52:35.846+0000] {processor.py:156} INFO - Started process (PID=728) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:52:35.848+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:52:35.849+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:52:35.849+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:52:35.884+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:52:36.310+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:52:36.348+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:52:36.347+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:52:36.380+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:52:36.379+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:52:36.413+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.571 seconds
+[2025-06-21T04:53:06.717+0000] {processor.py:156} INFO - Started process (PID=729) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:53:06.719+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:53:06.720+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:53:06.720+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:53:06.768+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:53:07.203+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:53:07.236+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:53:07.236+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:53:07.643+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:53:07.643+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:53:07.673+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.960 seconds
+[2025-06-21T04:53:37.960+0000] {processor.py:156} INFO - Started process (PID=730) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:53:37.962+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:53:37.963+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:53:37.963+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:53:38.015+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:53:38.461+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:53:38.493+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:53:38.493+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:53:38.520+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:53:38.519+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:53:38.541+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.586 seconds
+[2025-06-21T04:54:08.852+0000] {processor.py:156} INFO - Started process (PID=731) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:54:08.854+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:54:08.855+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:54:08.855+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:54:08.934+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:54:09.351+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:54:09.392+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:54:09.392+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:54:09.416+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:54:09.416+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:54:09.439+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.592 seconds
+[2025-06-21T04:54:39.788+0000] {processor.py:156} INFO - Started process (PID=732) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:54:39.789+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:54:39.791+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:54:39.791+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:54:39.854+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:54:40.273+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:54:40.303+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:54:40.303+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:54:40.324+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:54:40.324+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:54:40.352+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.568 seconds
+[2025-06-21T04:55:10.617+0000] {processor.py:156} INFO - Started process (PID=733) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:55:10.618+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:55:10.619+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:55:10.619+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:55:10.679+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:55:11.202+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:55:11.234+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:55:11.234+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:55:11.254+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:55:11.254+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:55:11.277+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.663 seconds
+[2025-06-21T04:55:41.702+0000] {processor.py:156} INFO - Started process (PID=734) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:55:41.704+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:55:41.705+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:55:41.705+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:55:41.778+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:55:42.228+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:55:42.265+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:55:42.264+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:55:42.290+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:55:42.290+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:55:42.323+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.632 seconds
+[2025-06-21T04:56:12.605+0000] {processor.py:156} INFO - Started process (PID=735) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:56:12.607+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:56:12.608+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:56:12.608+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:56:12.650+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:56:13.159+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:56:13.200+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:56:13.200+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:56:13.223+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:56:13.223+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:56:13.254+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.654 seconds
+[2025-06-21T04:56:43.816+0000] {processor.py:156} INFO - Started process (PID=736) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:56:43.818+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:56:43.819+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:56:43.819+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:56:43.875+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:56:44.318+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:56:44.356+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:56:44.356+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:56:44.377+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:56:44.376+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:56:44.399+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.586 seconds
+[2025-06-21T04:57:14.674+0000] {processor.py:156} INFO - Started process (PID=737) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:57:14.676+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:57:14.678+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:57:14.678+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:57:14.729+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:57:15.164+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:57:15.193+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:57:15.193+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:57:15.216+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:57:15.215+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:57:15.236+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.567 seconds
+[2025-06-21T04:57:45.585+0000] {processor.py:156} INFO - Started process (PID=738) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:57:45.587+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:57:45.588+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:57:45.588+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:57:45.637+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:57:46.107+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:57:46.142+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:57:46.142+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:57:46.167+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:57:46.167+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:57:46.196+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.614 seconds
+[2025-06-21T04:58:16.492+0000] {processor.py:156} INFO - Started process (PID=739) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:58:16.493+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:58:16.494+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:58:16.494+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:58:16.545+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:58:17.021+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:58:17.055+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:58:17.055+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:58:17.083+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:58:17.083+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:58:17.111+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.622 seconds
+[2025-06-21T04:58:47.438+0000] {processor.py:156} INFO - Started process (PID=740) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:58:47.440+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:58:47.441+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:58:47.441+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:58:47.496+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:58:47.919+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:58:47.960+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:58:47.960+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:58:47.987+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:58:47.987+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:58:48.010+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.579 seconds
+[2025-06-21T04:59:18.299+0000] {processor.py:156} INFO - Started process (PID=741) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:59:18.300+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:59:18.301+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:59:18.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:59:18.333+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:59:18.742+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:59:18.771+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:59:18.771+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:59:18.793+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:59:18.793+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:59:18.832+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.536 seconds
+[2025-06-21T04:59:48.940+0000] {processor.py:156} INFO - Started process (PID=742) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:59:48.942+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T04:59:48.944+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:59:48.944+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:59:48.994+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T04:59:49.430+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T04:59:49.466+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:59:49.466+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T04:59:49.490+0000] {logging_mixin.py:149} INFO - [2025-06-21T04:59:49.489+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T04:59:49.518+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.582 seconds
+[2025-06-21T05:00:19.882+0000] {processor.py:156} INFO - Started process (PID=743) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:00:19.884+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:00:19.886+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:00:19.886+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:00:19.946+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:00:20.433+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:00:20.482+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:00:20.481+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:00:20.503+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:00:20.502+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:00:20.526+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.649 seconds
+[2025-06-21T05:00:50.631+0000] {processor.py:156} INFO - Started process (PID=744) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:00:50.633+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:00:50.635+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:00:50.635+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:00:50.683+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:00:51.130+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:00:51.162+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:00:51.162+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:00:51.190+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:00:51.190+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:00:51.226+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.598 seconds
+[2025-06-21T05:01:21.492+0000] {processor.py:156} INFO - Started process (PID=745) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:01:21.493+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:01:21.495+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:01:21.494+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:01:21.551+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:01:22.035+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:01:22.079+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:01:22.079+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:01:22.109+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:01:22.109+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:01:22.136+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.648 seconds
+[2025-06-21T05:01:52.444+0000] {processor.py:156} INFO - Started process (PID=746) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:01:52.446+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:01:52.447+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:01:52.446+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:01:52.492+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:01:52.936+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:01:52.971+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:01:52.970+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:01:52.998+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:01:52.998+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:01:53.038+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.597 seconds
+[2025-06-21T05:02:23.302+0000] {processor.py:156} INFO - Started process (PID=747) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:02:23.304+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:02:23.305+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:02:23.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:02:23.360+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:02:23.823+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:02:23.850+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:02:23.850+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:02:23.873+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:02:23.872+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:02:23.902+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.604 seconds
+[2025-06-21T05:02:54.153+0000] {processor.py:156} INFO - Started process (PID=748) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:02:54.156+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:02:54.157+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:02:54.157+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:02:54.224+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:02:54.643+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:02:54.683+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:02:54.682+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:02:54.710+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:02:54.710+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:02:54.734+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.585 seconds
+[2025-06-21T05:03:25.002+0000] {processor.py:156} INFO - Started process (PID=749) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:03:25.004+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:03:25.006+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:03:25.005+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:03:25.055+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:03:25.629+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:03:25.843+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:03:25.842+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:03:25.863+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:03:25.863+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:03:25.887+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.889 seconds
+[2025-06-21T05:03:56.177+0000] {processor.py:156} INFO - Started process (PID=750) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:03:56.179+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:03:56.180+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:03:56.180+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:03:56.247+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:03:56.731+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:03:56.773+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:03:56.772+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:03:56.810+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:03:56.810+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:03:56.844+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.670 seconds
+[2025-06-21T05:04:27.197+0000] {processor.py:156} INFO - Started process (PID=753) to work on /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:04:27.200+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/wikipedia_flow.py for tasks to queue
+[2025-06-21T05:04:27.206+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:04:27.205+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:04:27.265+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-21T05:04:27.802+0000] {processor.py:809} INFO - DAG(s) dict_keys(['wikipedia_flow']) retrieved from /opt/airflow/dags/wikipedia_flow.py
+[2025-06-21T05:04:27.917+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:04:27.917+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2025-06-21T05:04:27.988+0000] {logging_mixin.py:149} INFO - [2025-06-21T05:04:27.987+0000] {dag.py:3486} INFO - Setting next_dagrun for wikipedia_flow to None, run_after=None
+[2025-06-21T05:04:28.064+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/wikipedia_flow.py took 0.876 seconds

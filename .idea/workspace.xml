@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32917c4f-e620-4a2a-92d4-a592065d5670" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/data/stadium_cleaned_data20250625-200330.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200315.644714+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200315.644714+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200315.644714+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200400.881119+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200400.881119+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200400.881119+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200648.205985+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200648.205985+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T200648.205985+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201051.308088+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201051.308088+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201051.308088+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201654.797066+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201654.797066+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T201654.797066+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202028.813304+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202028.813304+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202028.813304+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202030.627847+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202030.627847+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202030.627847+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202032.271918+0000/task_id=extract_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202032.271918+0000/task_id=transform_data_from_wiki/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/dag_id=wikipedia_flow/run_id=manual__2025-06-25T202032.271918+0000/task_id=write_wikipedia_data/attempt=1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/scheduler/2025-06-25/wikipedia_flow.py.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/2025-06-25/wikipedia_flow.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2025-06-25/wikipedia_flow.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipelines/wikipedia_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines/wikipedia_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +41,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rahulchet"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rahulchet&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rahulchet/foodtballdataengineeringproject",
-    "accountId": "91a0c8b0-7e65-4c20-af56-2f4667d205a1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rahulchet/foodtballdataengineeringproject&quot;,
+    &quot;accountId&quot;: &quot;91a0c8b0-7e65-4c20-af56-2f4667d205a1&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/dags/wikipedia_flow.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -96,7 +72,7 @@
     "Python.wikipedia_pipeline.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Lenovo/Documents/project_trainings/FootballDataengineering",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -216,7 +192,8 @@
       <workItem from="1750355132806" duration="45250000" />
       <workItem from="1750637721425" duration="7002000" />
       <workItem from="1750703138227" duration="5030000" />
-      <workItem from="1750878987170" duration="6129000" />
+      <workItem from="1750878987170" duration="6847000" />
+      <workItem from="1750887113706" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />

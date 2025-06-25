@@ -1,0 +1,28 @@
+[2025-06-20T14:46:39.901+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_flow.extract_data_from_wiki manual__2025-06-20T14:46:36.363835+00:00 [queued]>
+[2025-06-20T14:46:39.910+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_flow.extract_data_from_wiki manual__2025-06-20T14:46:36.363835+00:00 [queued]>
+[2025-06-20T14:46:39.910+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2025-06-20T14:46:39.921+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): extract_data_from_wiki> on 2025-06-20 14:46:36.363835+00:00
+[2025-06-20T14:46:39.926+0000] {standard_task_runner.py:57} INFO - Started process 58 to run task
+[2025-06-20T14:46:39.929+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'wikipedia_flow', 'extract_data_from_wiki', 'manual__2025-06-20T14:46:36.363835+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/wikipedia_flow.py', '--cfg-path', '/tmp/tmpnix61zdw']
+[2025-06-20T14:46:39.931+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask extract_data_from_wiki
+[2025-06-20T14:46:40.003+0000] {task_command.py:410} INFO - Running <TaskInstance: wikipedia_flow.extract_data_from_wiki manual__2025-06-20T14:46:36.363835+00:00 [running]> on host bf870bd52d42
+[2025-06-20T14:46:40.081+0000] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rahul' AIRFLOW_CTX_DAG_ID='wikipedia_flow' AIRFLOW_CTX_TASK_ID='extract_data_from_wiki' AIRFLOW_CTX_EXECUTION_DATE='2025-06-20T14:46:36.363835+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-20T14:46:36.363835+00:00'
+[2025-06-20T14:46:40.083+0000] {wikipedia_pipeline.py:31} INFO - extracting wikipedia data from https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-20T14:46:40.084+0000] {logging_mixin.py:149} INFO - getting wiikipedia URl https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity
+[2025-06-20T14:46:41.183+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/pipelines/wikipedia_pipeline.py", line 36, in extract_wikipedia_data
+    table_rows = get_wikipedia_data(html)
+  File "/opt/airflow/pipelines/wikipedia_pipeline.py", line 25, in get_wikipedia_data
+    table_rows=table.find_all("tr")
+  File "/home/airflow/.local/lib/python3.9/site-packages/bs4/element.py", line 2428, in __getattr__
+    raise AttributeError(
+AttributeError: ResultSet object has no attribute 'find_all'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?
+[2025-06-20T14:46:41.250+0000] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=wikipedia_flow, task_id=extract_data_from_wiki, execution_date=20250620T144636, start_date=20250620T144639, end_date=20250620T144641
+[2025-06-20T14:46:41.268+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task extract_data_from_wiki (ResultSet object has no attribute 'find_all'. You're probably treating a list of elements like a single element. Did you call find_all() when you meant to call find()?; 58)
+[2025-06-20T14:46:41.308+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2025-06-20T14:46:41.331+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2025-06-23T18:50:30.464+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: wikipedia_flow.transform_data_from_wiki manual__2025-06-23T18:34:37.405026+00:00 [queued]>
+[2025-06-23T18:50:30.473+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: wikipedia_flow.transform_data_from_wiki manual__2025-06-23T18:34:37.405026+00:00 [queued]>
+[2025-06-23T18:50:30.473+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 1
+[2025-06-23T18:50:30.485+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): transform_data_from_wiki> on 2025-06-23 18:34:37.405026+00:00
+[2025-06-23T18:50:30.489+0000] {standard_task_runner.py:57} INFO - Started process 57 to run task
+[2025-06-23T18:50:30.493+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'wikipedia_flow', 'transform_data_from_wiki', 'manual__2025-06-23T18:34:37.405026+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/wikipedia_flow.py', '--cfg-path', '/tmp/tmpcwzqzcf7']
+[2025-06-23T18:50:30.495+0000] {standard_task_runner.py:85} INFO - Job 9: Subtask transform_data_from_wiki
+[2025-06-23T18:50:30.554+0000] {task_command.py:410} INFO - Running <TaskInstance: wikipedia_flow.transform_data_from_wiki manual__2025-06-23T18:34:37.405026+00:00 [running]> on host bf870bd52d42
+[2025-06-23T18:50:30.632+0000] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rahul' AIRFLOW_CTX_DAG_ID='wikipedia_flow' AIRFLOW_CTX_TASK_ID='transform_data_from_wiki' AIRFLOW_CTX_EXECUTION_DATE='2025-06-23T18:34:37.405026+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-23T18:34:37.405026+00:00'
+[2025-06-23T18:50:30.633+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/pipelines/wikipedia_pipeline.py", line 80, in transform_wikidata_data
+    data = kwargs["t1"].xcom_pull(key="data", task_id="extract_wikidata")
+KeyError: 't1'
+[2025-06-23T18:50:30.645+0000] {taskinstance.py:1368} INFO - Marking task as FAILED. dag_id=wikipedia_flow, task_id=transform_data_from_wiki, execution_date=20250623T183437, start_date=20250623T185030, end_date=20250623T185030
+[2025-06-23T18:50:30.654+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 9 for task transform_data_from_wiki ('t1'; 57)
+[2025-06-23T18:50:30.666+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2025-06-23T18:50:30.685+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check
